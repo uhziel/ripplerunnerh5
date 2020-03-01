@@ -1,7 +1,7 @@
 {
 	"groups": [
 		{
-			"keys": "checkbox_select_disabled_png,checkbox_select_down_png,checkbox_select_up_png,checkbox_unselect_png,selected_png,border_png,header_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,radiobutton_unselect_png,roundthumb_png,thumb_png,track_png,tracklight_png,handle_png,off_png,on_png,button_down_png,button_up_png,thumb_pb_png,track_pb_png,track_sb_png,bg_jpg,egret_icon_png,description_json",
+			"keys": "checkbox_select_disabled_png,checkbox_select_down_png,checkbox_select_up_png,checkbox_unselect_png,selected_png,border_png,header_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,radiobutton_unselect_png,roundthumb_png,thumb_png,track_png,tracklight_png,handle_png,off_png,on_png,button_down_png,button_up_png,thumb_pb_png,track_pb_png,track_sb_png,bg_jpg,egret_icon_png,description_json,intro_mp3,menu_mp3,stage1_mp3,stage2_mp3,stage3_mp3,stage4_mp3,stage5_mp3,stage6_mp3,backdrop_1_png,backdrop_1r_png,backdrop_2_1_png,backdrop_2_1r_png,backdrop_2_2_png,backdrop_2_2r_png,backdrop_2_3_png,backdrop_2_3r_png,backdrop_2_png,backdrop_2r_png,backdrop_3_1_png,backdrop_3_1r_png,backdrop_3_2_png,backdrop_3_2r_png,backdrop_3_3_png,backdrop_3_3r_png,backdrop_3_png,backdrop_3r_png,backdrop_4_1_png,backdrop_4_1r_png,backdrop_4_2_png,backdrop_4_2r_png,backdrop_4_3_png,backdrop_4_3r_png,backdrop_5_1_png,backdrop_5_1r_png,backdrop_5_2_png,backdrop_5_2r_png,backdrop_5_3_png,backdrop_5_3r_png,backdrop_6_1_png,backdrop_6_1r_png,backdrop_6_2_png,backdrop_6_2r_png,backdrop_6_3_png,backdrop_6_3r_png,black_png,checkpoint_off_png,checkpoint_on_png,controls_png,cursor_png,flash_png,frame1_png,frame2_png,frame3_png,frame4_png,frame5_png,medal_png,particle_large_png,particle_medium_png,particle_small_png,particle_tiny_png,platform_spike_tile_png,platform_tile_png,player_png,title_background_png,title_text_png,tutorial1_png,tutorial10_png,tutorial1b_png,tutorial2_png,tutorial3_png,tutorial4_png,tutorial5_png,tutorial6_png,tutorial8_png,tutorial9_png,water_png,water2_png,death_mp3,flip_mp3,jump_level_1_mp3,switch_level_1_mp3,tutorial_mp3,player_json",
 			"name": "preload"
 		}
 	],
@@ -132,9 +132,425 @@
 			"name": "egret_icon_png"
 		},
 		{
-			"name": "description_json",
+			"url": "config/description.json",
 			"type": "json",
-			"url": "config/description.json"
+			"name": "description_json"
+		},
+		{
+			"url": "assets/mus/intro.mp3",
+			"type": "sound",
+			"name": "intro_mp3",
+			"soundType": "music"
+		},
+		{
+			"url": "assets/mus/menu.mp3",
+			"type": "sound",
+			"name": "menu_mp3"
+		},
+		{
+			"url": "assets/mus/stage1.mp3",
+			"type": "sound",
+			"name": "stage1_mp3"
+		},
+		{
+			"url": "assets/mus/stage2.mp3",
+			"type": "sound",
+			"name": "stage2_mp3"
+		},
+		{
+			"url": "assets/mus/stage3.mp3",
+			"type": "sound",
+			"name": "stage3_mp3"
+		},
+		{
+			"url": "assets/mus/stage4.mp3",
+			"type": "sound",
+			"name": "stage4_mp3"
+		},
+		{
+			"url": "assets/mus/stage5.mp3",
+			"type": "sound",
+			"name": "stage5_mp3"
+		},
+		{
+			"url": "assets/mus/stage6.mp3",
+			"type": "sound",
+			"name": "stage6_mp3"
+		},
+		{
+			"url": "assets/img/backdrop_1.png",
+			"type": "image",
+			"name": "backdrop_1_png"
+		},
+		{
+			"url": "assets/img/backdrop_1r.png",
+			"type": "image",
+			"name": "backdrop_1r_png"
+		},
+		{
+			"url": "assets/img/backdrop_2.png",
+			"type": "image",
+			"name": "backdrop_2_png"
+		},
+		{
+			"url": "assets/img/backdrop_2_1.png",
+			"type": "image",
+			"name": "backdrop_2_1_png"
+		},
+		{
+			"url": "assets/img/backdrop_2_1r.png",
+			"type": "image",
+			"name": "backdrop_2_1r_png"
+		},
+		{
+			"url": "assets/img/backdrop_2_2.png",
+			"type": "image",
+			"name": "backdrop_2_2_png"
+		},
+		{
+			"url": "assets/img/backdrop_2_2r.png",
+			"type": "image",
+			"name": "backdrop_2_2r_png"
+		},
+		{
+			"url": "assets/img/backdrop_2_3.png",
+			"type": "image",
+			"name": "backdrop_2_3_png"
+		},
+		{
+			"url": "assets/img/backdrop_2_3r.png",
+			"type": "image",
+			"name": "backdrop_2_3r_png"
+		},
+		{
+			"url": "assets/img/backdrop_2r.png",
+			"type": "image",
+			"name": "backdrop_2r_png"
+		},
+		{
+			"url": "assets/img/backdrop_3.png",
+			"type": "image",
+			"name": "backdrop_3_png"
+		},
+		{
+			"url": "assets/img/backdrop_3_1.png",
+			"type": "image",
+			"name": "backdrop_3_1_png"
+		},
+		{
+			"url": "assets/img/backdrop_3_1r.png",
+			"type": "image",
+			"name": "backdrop_3_1r_png"
+		},
+		{
+			"url": "assets/img/backdrop_3_2.png",
+			"type": "image",
+			"name": "backdrop_3_2_png"
+		},
+		{
+			"url": "assets/img/backdrop_3_2r.png",
+			"type": "image",
+			"name": "backdrop_3_2r_png"
+		},
+		{
+			"url": "assets/img/backdrop_3_3.png",
+			"type": "image",
+			"name": "backdrop_3_3_png"
+		},
+		{
+			"url": "assets/img/backdrop_3_3r.png",
+			"type": "image",
+			"name": "backdrop_3_3r_png"
+		},
+		{
+			"url": "assets/img/backdrop_3r.png",
+			"type": "image",
+			"name": "backdrop_3r_png"
+		},
+		{
+			"url": "assets/img/backdrop_4_1.png",
+			"type": "image",
+			"name": "backdrop_4_1_png"
+		},
+		{
+			"url": "assets/img/backdrop_4_1r.png",
+			"type": "image",
+			"name": "backdrop_4_1r_png"
+		},
+		{
+			"url": "assets/img/backdrop_4_2.png",
+			"type": "image",
+			"name": "backdrop_4_2_png"
+		},
+		{
+			"url": "assets/img/backdrop_4_2r.png",
+			"type": "image",
+			"name": "backdrop_4_2r_png"
+		},
+		{
+			"url": "assets/img/backdrop_4_3.png",
+			"type": "image",
+			"name": "backdrop_4_3_png"
+		},
+		{
+			"url": "assets/img/backdrop_4_3r.png",
+			"type": "image",
+			"name": "backdrop_4_3r_png"
+		},
+		{
+			"url": "assets/img/backdrop_5_1.png",
+			"type": "image",
+			"name": "backdrop_5_1_png"
+		},
+		{
+			"url": "assets/img/backdrop_5_1r.png",
+			"type": "image",
+			"name": "backdrop_5_1r_png"
+		},
+		{
+			"url": "assets/img/backdrop_5_2.png",
+			"type": "image",
+			"name": "backdrop_5_2_png"
+		},
+		{
+			"url": "assets/img/backdrop_5_2r.png",
+			"type": "image",
+			"name": "backdrop_5_2r_png"
+		},
+		{
+			"url": "assets/img/backdrop_5_3.png",
+			"type": "image",
+			"name": "backdrop_5_3_png"
+		},
+		{
+			"url": "assets/img/backdrop_5_3r.png",
+			"type": "image",
+			"name": "backdrop_5_3r_png"
+		},
+		{
+			"url": "assets/img/backdrop_6_1.png",
+			"type": "image",
+			"name": "backdrop_6_1_png"
+		},
+		{
+			"url": "assets/img/backdrop_6_1r.png",
+			"type": "image",
+			"name": "backdrop_6_1r_png"
+		},
+		{
+			"url": "assets/img/backdrop_6_2.png",
+			"type": "image",
+			"name": "backdrop_6_2_png"
+		},
+		{
+			"url": "assets/img/backdrop_6_2r.png",
+			"type": "image",
+			"name": "backdrop_6_2r_png"
+		},
+		{
+			"url": "assets/img/backdrop_6_3.png",
+			"type": "image",
+			"name": "backdrop_6_3_png"
+		},
+		{
+			"url": "assets/img/backdrop_6_3r.png",
+			"type": "image",
+			"name": "backdrop_6_3r_png"
+		},
+		{
+			"url": "assets/img/black.png",
+			"type": "image",
+			"name": "black_png"
+		},
+		{
+			"url": "assets/img/checkpoint_off.png",
+			"type": "image",
+			"name": "checkpoint_off_png"
+		},
+		{
+			"url": "assets/img/checkpoint_on.png",
+			"type": "image",
+			"name": "checkpoint_on_png"
+		},
+		{
+			"url": "assets/img/controls.png",
+			"type": "image",
+			"name": "controls_png"
+		},
+		{
+			"url": "assets/img/cursor.png",
+			"type": "image",
+			"name": "cursor_png"
+		},
+		{
+			"url": "assets/img/flash.png",
+			"type": "image",
+			"name": "flash_png"
+		},
+		{
+			"url": "assets/img/frame1.png",
+			"type": "image",
+			"name": "frame1_png"
+		},
+		{
+			"url": "assets/img/frame2.png",
+			"type": "image",
+			"name": "frame2_png"
+		},
+		{
+			"url": "assets/img/frame3.png",
+			"type": "image",
+			"name": "frame3_png"
+		},
+		{
+			"url": "assets/img/frame4.png",
+			"type": "image",
+			"name": "frame4_png"
+		},
+		{
+			"url": "assets/img/frame5.png",
+			"type": "image",
+			"name": "frame5_png"
+		},
+		{
+			"url": "assets/img/medal.png",
+			"type": "image",
+			"name": "medal_png"
+		},
+		{
+			"url": "assets/img/particle_large.png",
+			"type": "image",
+			"name": "particle_large_png"
+		},
+		{
+			"url": "assets/img/particle_medium.png",
+			"type": "image",
+			"name": "particle_medium_png"
+		},
+		{
+			"url": "assets/img/particle_small.png",
+			"type": "image",
+			"name": "particle_small_png"
+		},
+		{
+			"url": "assets/img/particle_tiny.png",
+			"type": "image",
+			"name": "particle_tiny_png"
+		},
+		{
+			"url": "assets/img/platform_spike_tile.png",
+			"type": "image",
+			"name": "platform_spike_tile_png"
+		},
+		{
+			"url": "assets/img/platform_tile.png",
+			"type": "image",
+			"name": "platform_tile_png"
+		},
+		{
+			"url": "assets/img/player.png",
+			"type": "image",
+			"name": "player_png"
+		},
+		{
+			"url": "assets/img/title_background.png",
+			"type": "image",
+			"name": "title_background_png"
+		},
+		{
+			"url": "assets/img/title_text.png",
+			"type": "image",
+			"name": "title_text_png"
+		},
+		{
+			"url": "assets/img/tutorial1.png",
+			"type": "image",
+			"name": "tutorial1_png"
+		},
+		{
+			"url": "assets/img/tutorial10.png",
+			"type": "image",
+			"name": "tutorial10_png"
+		},
+		{
+			"url": "assets/img/tutorial1b.png",
+			"type": "image",
+			"name": "tutorial1b_png"
+		},
+		{
+			"url": "assets/img/tutorial2.png",
+			"type": "image",
+			"name": "tutorial2_png"
+		},
+		{
+			"url": "assets/img/tutorial3.png",
+			"type": "image",
+			"name": "tutorial3_png"
+		},
+		{
+			"url": "assets/img/tutorial4.png",
+			"type": "image",
+			"name": "tutorial4_png"
+		},
+		{
+			"url": "assets/img/tutorial5.png",
+			"type": "image",
+			"name": "tutorial5_png"
+		},
+		{
+			"url": "assets/img/tutorial6.png",
+			"type": "image",
+			"name": "tutorial6_png"
+		},
+		{
+			"url": "assets/img/tutorial8.png",
+			"type": "image",
+			"name": "tutorial8_png"
+		},
+		{
+			"url": "assets/img/tutorial9.png",
+			"type": "image",
+			"name": "tutorial9_png"
+		},
+		{
+			"url": "assets/img/water.png",
+			"type": "image",
+			"name": "water_png"
+		},
+		{
+			"url": "assets/img/water2.png",
+			"type": "image",
+			"name": "water2_png"
+		},
+		{
+			"url": "assets/sfx/death.mp3",
+			"type": "sound",
+			"name": "death_mp3"
+		},
+		{
+			"url": "assets/sfx/flip.mp3",
+			"type": "sound",
+			"name": "flip_mp3"
+		},
+		{
+			"url": "assets/sfx/jump_level_1.mp3",
+			"type": "sound",
+			"name": "jump_level_1_mp3"
+		},
+		{
+			"url": "assets/sfx/switch_level_1.mp3",
+			"type": "sound",
+			"name": "switch_level_1_mp3"
+		},
+		{
+			"url": "assets/sfx/tutorial.mp3",
+			"type": "sound",
+			"name": "tutorial_mp3"
+		},
+		{
+			"url": "assets/img/player.json",
+			"type": "json",
+			"name": "player_json"
 		}
 	]
 }
